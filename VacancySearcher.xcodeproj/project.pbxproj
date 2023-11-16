@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B412A06433AF631641246BB /* Pods_VacancySearcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC8EA179362B09089FA7FD7 /* Pods_VacancySearcher.framework */; };
+		A0502CC22B0633DF0011192E /* SalaryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0502CC12B0633DF0011192E /* SalaryHelper.swift */; };
+		A0502CC42B06389D0011192E /* AddressHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0502CC32B06389D0011192E /* AddressHelper.swift */; };
 		A059C1C02B0246E900D0BFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1BF2B0246E900D0BFAA /* AppDelegate.swift */; };
 		A059C1C22B0246E900D0BFAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1C12B0246E900D0BFAA /* SceneDelegate.swift */; };
-		A059C1C42B0246E900D0BFAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1C32B0246E900D0BFAA /* ViewController.swift */; };
 		A059C1C72B0246E900D0BFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A059C1C52B0246E900D0BFAA /* Main.storyboard */; };
 		A059C1C92B0246EB00D0BFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A059C1C82B0246EB00D0BFAA /* Assets.xcassets */; };
 		A059C1CC2B0246EB00D0BFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A059C1CA2B0246EB00D0BFAA /* LaunchScreen.storyboard */; };
+		A059C1DB2B02474500D0BFAA /* VacancyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1D92B02474400D0BFAA /* VacancyModel.swift */; };
+		A059C1DC2B02474500D0BFAA /* VacancyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1DA2B02474500D0BFAA /* VacancyData.swift */; };
+		A059C1DE2B02475600D0BFAA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1DD2B02475600D0BFAA /* NetworkService.swift */; };
+		A059C1E02B02478000D0BFAA /* VacanciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1DF2B02478000D0BFAA /* VacanciesViewModel.swift */; };
+		A059C1E22B0247B200D0BFAA /* VacanciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1E12B0247B200D0BFAA /* VacanciesView.swift */; };
+		A059C1E62B024A6900D0BFAA /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1E42B024A6900D0BFAA /* UITextField+Publisher.swift */; };
+		A059C1E92B025BB700D0BFAA /* VacancyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1E82B025BB700D0BFAA /* VacancyTableViewCell.swift */; };
+		A059C1EF2B02974100D0BFAA /* VacancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059C1EE2B02974100D0BFAA /* VacancyViewController.swift */; };
+		A072D43F2B035C7E00CD09A5 /* VacancyCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D43E2B035C7E00CD09A5 /* VacancyCellViewModel.swift */; };
+		A072D4422B04B8F800CD09A5 /* VacancyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D4412B04B8F800CD09A5 /* VacancyDetailViewController.swift */; };
+		A072D4452B04BD1100CD09A5 /* VacancyDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D4442B04BD1100CD09A5 /* VacancyDetailModel.swift */; };
+		A072D4482B04CA3400CD09A5 /* VacancyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D4472B04CA3400CD09A5 /* VacancyDetailViewModel.swift */; };
+		A072D44C2B05099600CD09A5 /* VacancyNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D44B2B05099600CD09A5 /* VacancyNameTableViewCell.swift */; };
+		A072D44E2B0509BA00CD09A5 /* VacancySalaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D44D2B0509BA00CD09A5 /* VacancySalaryTableViewCell.swift */; };
+		A072D4502B0509CD00CD09A5 /* VacancyAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D44F2B0509CD00CD09A5 /* VacancyAddressTableViewCell.swift */; };
+		A072D4522B0509F700CD09A5 /* VacancyDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D4512B0509F700CD09A5 /* VacancyDescriptionTableViewCell.swift */; };
+		A072D4552B0557B700CD09A5 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072D4542B0557B700CD09A5 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC8EA179362B09089FA7FD7 /* Pods_VacancySearcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VacancySearcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF49681F83E39396B7CC00A /* Pods-VacancySearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacancySearcher.release.xcconfig"; path = "Target Support Files/Pods-VacancySearcher/Pods-VacancySearcher.release.xcconfig"; sourceTree = "<group>"; };
+		75D162864ECFBF1618BBA9A0 /* Pods-VacancySearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacancySearcher.debug.xcconfig"; path = "Target Support Files/Pods-VacancySearcher/Pods-VacancySearcher.debug.xcconfig"; sourceTree = "<group>"; };
+		A0502CC12B0633DF0011192E /* SalaryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryHelper.swift; sourceTree = "<group>"; };
+		A0502CC32B06389D0011192E /* AddressHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressHelper.swift; sourceTree = "<group>"; };
 		A059C1BC2B0246E900D0BFAA /* VacancySearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacancySearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A059C1BF2B0246E900D0BFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A059C1C12B0246E900D0BFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A059C1C32B0246E900D0BFAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A059C1C62B0246E900D0BFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A059C1C82B0246EB00D0BFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A059C1CB2B0246EB00D0BFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A059C1CD2B0246EB00D0BFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A059C1D92B02474400D0BFAA /* VacancyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacancyModel.swift; sourceTree = "<group>"; };
+		A059C1DA2B02474500D0BFAA /* VacancyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacancyData.swift; sourceTree = "<group>"; };
+		A059C1DD2B02475600D0BFAA /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A059C1DF2B02478000D0BFAA /* VacanciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesViewModel.swift; sourceTree = "<group>"; };
+		A059C1E12B0247B200D0BFAA /* VacanciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesView.swift; sourceTree = "<group>"; };
+		A059C1E42B024A6900D0BFAA /* UITextField+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
+		A059C1E82B025BB700D0BFAA /* VacancyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyTableViewCell.swift; sourceTree = "<group>"; };
+		A059C1EE2B02974100D0BFAA /* VacancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyViewController.swift; sourceTree = "<group>"; };
+		A072D43E2B035C7E00CD09A5 /* VacancyCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyCellViewModel.swift; sourceTree = "<group>"; };
+		A072D4412B04B8F800CD09A5 /* VacancyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDetailViewController.swift; sourceTree = "<group>"; };
+		A072D4442B04BD1100CD09A5 /* VacancyDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDetailModel.swift; sourceTree = "<group>"; };
+		A072D4472B04CA3400CD09A5 /* VacancyDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDetailViewModel.swift; sourceTree = "<group>"; };
+		A072D44B2B05099600CD09A5 /* VacancyNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyNameTableViewCell.swift; sourceTree = "<group>"; };
+		A072D44D2B0509BA00CD09A5 /* VacancySalaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancySalaryTableViewCell.swift; sourceTree = "<group>"; };
+		A072D44F2B0509CD00CD09A5 /* VacancyAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyAddressTableViewCell.swift; sourceTree = "<group>"; };
+		A072D4512B0509F700CD09A5 /* VacancyDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		A072D4542B0557B700CD09A5 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B412A06433AF631641246BB /* Pods_VacancySearcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CBD9608838DD2C01DA2A0C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75D162864ECFBF1618BBA9A0 /* Pods-VacancySearcher.debug.xcconfig */,
+				0EF49681F83E39396B7CC00A /* Pods-VacancySearcher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A059C1B32B0246E800D0BFAA = {
 			isa = PBXGroup;
 			children = (
 				A059C1BE2B0246E900D0BFAA /* VacancySearcher */,
 				A059C1BD2B0246E900D0BFAA /* Products */,
+				9CBD9608838DD2C01DA2A0C6 /* Pods */,
+				BD98352C671D36DFFDD7F9D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,145 @@
 		A059C1BE2B0246E900D0BFAA /* VacancySearcher */ = {
 			isa = PBXGroup;
 			children = (
+				A059C1D32B0246F100D0BFAA /* Vacancies */,
+				A072D4402B04B86600CD09A5 /* VacancyDetail */,
+				A059C1D82B02472800D0BFAA /* NetworkServices */,
+				A059C1E32B024A6900D0BFAA /* Combine */,
+				A072D4532B05579C00CD09A5 /* Helpers */,
 				A059C1BF2B0246E900D0BFAA /* AppDelegate.swift */,
 				A059C1C12B0246E900D0BFAA /* SceneDelegate.swift */,
-				A059C1C32B0246E900D0BFAA /* ViewController.swift */,
 				A059C1C52B0246E900D0BFAA /* Main.storyboard */,
 				A059C1C82B0246EB00D0BFAA /* Assets.xcassets */,
 				A059C1CA2B0246EB00D0BFAA /* LaunchScreen.storyboard */,
 				A059C1CD2B0246EB00D0BFAA /* Info.plist */,
 			);
 			path = VacancySearcher;
+			sourceTree = "<group>";
+		};
+		A059C1D32B0246F100D0BFAA /* Vacancies */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1D72B02472000D0BFAA /* ViewControllers */,
+				A059C1D62B02471600D0BFAA /* ViewModels */,
+				A059C1D52B02470000D0BFAA /* Models */,
+				A059C1D42B0246FB00D0BFAA /* Views */,
+			);
+			path = Vacancies;
+			sourceTree = "<group>";
+		};
+		A059C1D42B0246FB00D0BFAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1E12B0247B200D0BFAA /* VacanciesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A059C1D52B02470000D0BFAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1DA2B02474500D0BFAA /* VacancyData.swift */,
+				A059C1D92B02474400D0BFAA /* VacancyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A059C1D62B02471600D0BFAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1DF2B02478000D0BFAA /* VacanciesViewModel.swift */,
+				A072D43E2B035C7E00CD09A5 /* VacancyCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A059C1D72B02472000D0BFAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1EE2B02974100D0BFAA /* VacancyViewController.swift */,
+				A059C1E82B025BB700D0BFAA /* VacancyTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A059C1D82B02472800D0BFAA /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1DD2B02475600D0BFAA /* NetworkService.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		A059C1E32B024A6900D0BFAA /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				A059C1E42B024A6900D0BFAA /* UITextField+Publisher.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		A072D4402B04B86600CD09A5 /* VacancyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A072D4492B05068700CD09A5 /* ViewController */,
+				A072D4462B04CA2100CD09A5 /* ViewModels */,
+				A072D4432B04BD0100CD09A5 /* Models */,
+			);
+			path = VacancyDetail;
+			sourceTree = "<group>";
+		};
+		A072D4432B04BD0100CD09A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A072D4442B04BD1100CD09A5 /* VacancyDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A072D4462B04CA2100CD09A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A072D4472B04CA3400CD09A5 /* VacancyDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A072D4492B05068700CD09A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A072D44A2B05094C00CD09A5 /* VacancyDetailTableViewCells */,
+				A072D4412B04B8F800CD09A5 /* VacancyDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A072D44A2B05094C00CD09A5 /* VacancyDetailTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A072D44B2B05099600CD09A5 /* VacancyNameTableViewCell.swift */,
+				A072D44D2B0509BA00CD09A5 /* VacancySalaryTableViewCell.swift */,
+				A072D44F2B0509CD00CD09A5 /* VacancyAddressTableViewCell.swift */,
+				A072D4512B0509F700CD09A5 /* VacancyDescriptionTableViewCell.swift */,
+			);
+			path = VacancyDetailTableViewCells;
+			sourceTree = "<group>";
+		};
+		A072D4532B05579C00CD09A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A072D4542B0557B700CD09A5 /* String+Extension.swift */,
+				A0502CC12B0633DF0011192E /* SalaryHelper.swift */,
+				A0502CC32B06389D0011192E /* AddressHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD98352C671D36DFFDD7F9D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC8EA179362B09089FA7FD7 /* Pods_VacancySearcher.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A059C1D02B0246EB00D0BFAA /* Build configuration list for PBXNativeTarget "VacancySearcher" */;
 			buildPhases = (
+				13315AB960A998B3C7DDB2D1 /* [CP] Check Pods Manifest.lock */,
 				A059C1B82B0246E900D0BFAA /* Sources */,
 				A059C1B92B0246E900D0BFAA /* Frameworks */,
 				A059C1BA2B0246E900D0BFAA /* Resources */,
+				D9EFB3D6854BD2ED9D4E7078 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +317,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13315AB960A998B3C7DDB2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VacancySearcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EFB3D6854BD2ED9D4E7078 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VacancySearcher/Pods-VacancySearcher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VacancySearcher/Pods-VacancySearcher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VacancySearcher/Pods-VacancySearcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A059C1B82B0246E900D0BFAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A059C1C42B0246E900D0BFAA /* ViewController.swift in Sources */,
+				A059C1E02B02478000D0BFAA /* VacanciesViewModel.swift in Sources */,
 				A059C1C02B0246E900D0BFAA /* AppDelegate.swift in Sources */,
+				A072D4502B0509CD00CD09A5 /* VacancyAddressTableViewCell.swift in Sources */,
+				A072D4552B0557B700CD09A5 /* String+Extension.swift in Sources */,
+				A0502CC42B06389D0011192E /* AddressHelper.swift in Sources */,
+				A059C1E62B024A6900D0BFAA /* UITextField+Publisher.swift in Sources */,
+				A072D4452B04BD1100CD09A5 /* VacancyDetailModel.swift in Sources */,
+				A059C1DC2B02474500D0BFAA /* VacancyData.swift in Sources */,
+				A059C1EF2B02974100D0BFAA /* VacancyViewController.swift in Sources */,
+				A072D44C2B05099600CD09A5 /* VacancyNameTableViewCell.swift in Sources */,
+				A072D4422B04B8F800CD09A5 /* VacancyDetailViewController.swift in Sources */,
+				A072D4482B04CA3400CD09A5 /* VacancyDetailViewModel.swift in Sources */,
 				A059C1C22B0246E900D0BFAA /* SceneDelegate.swift in Sources */,
+				A059C1DE2B02475600D0BFAA /* NetworkService.swift in Sources */,
+				A072D4522B0509F700CD09A5 /* VacancyDescriptionTableViewCell.swift in Sources */,
+				A059C1E22B0247B200D0BFAA /* VacanciesView.swift in Sources */,
+				A072D43F2B035C7E00CD09A5 /* VacancyCellViewModel.swift in Sources */,
+				A059C1DB2B02474500D0BFAA /* VacancyModel.swift in Sources */,
+				A0502CC22B0633DF0011192E /* SalaryHelper.swift in Sources */,
+				A072D44E2B0509BA00CD09A5 /* VacancySalaryTableViewCell.swift in Sources */,
+				A059C1E92B025BB700D0BFAA /* VacancyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +526,7 @@
 		};
 		A059C1D12B0246EB00D0BFAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D162864ECFBF1618BBA9A0 /* Pods-VacancySearcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +555,7 @@
 		};
 		A059C1D22B0246EB00D0BFAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF49681F83E39396B7CC00A /* Pods-VacancySearcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
